@@ -13,5 +13,5 @@ export const getCharacter = async (id) => {
 
   const response = await fetch(URL)
 
-  return await response.json()
+  return await response.json()   
 }
